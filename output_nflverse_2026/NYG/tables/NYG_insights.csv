@@ -1,0 +1,19 @@
+"category","finding","n","metric"
+"Tendency","Passes on 58% of all plays and 51% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",515,0.584466019417476
+"Tendency","QB alignment is a strong run/pass key: under center they run 71% of the time (n=192); in shotgun they pass 80% (n=306).",498,0.514195261437909
+"Tendency","Pistol is a real part of the menu: 17 plays, 6% pass.",17,0.0588235294117647
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 100% of the time (n=20, 95% lower bound 84%).",20,1
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 95% of the time (n=37, 95% lower bound 82%).",37,0.945945945945946
+"Tendency","Tell: 3rd Down + Extra Long (11+) -> pass 96% of the time (n=26, 95% lower bound 81%).",26,0.961538461538462
+"Tendency","Tell: Shotgun + 3rd Down -> pass 85% of the time (n=101, 95% lower bound 77%).",101,0.851485148514851
+"Tendency","Run game is built on Middle and Left Guard: 45% of carries.",97,0.453271028037383
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 58% to 79% (leave-one-out).",515,0.205825242718447
+"Strength","Most efficient run gap: Left End, +0.10 EPA/carry, 5.1 YPC, 56% success (n=27).",27,0.0957133977758027
+"Strength","Primary target: M. Nabers (#1) (WR), 30% target share, 53 catches for 648 yards, +0.23 EPA/target, 29 first downs.",78,0.232665415430909
+"Strength","Most efficient receiver: T. Tracy Jr. (#29) (HB), +0.64 EPA/target on 7 targets, aDOT 0.6, 10.8 YAC/rec.",7,0.637052193051203
+"Strength","Lead back C. Skattebo (#44): 46% of carries, 4.3 YPC, 46% success. Favorite gap: Middle.",98,-0.109698493645954
+"Strength","Most total value: M. Nabers (#1), 18.1 total EPA on 78 touches + targets (648 scrimmage yards).",78,18.1479024036109
+"Strength","Deep shots (20+ air yards): 16% of targets, 39% complete, +0.59 EPA/target (n=41).",41,0.587102038548705
+"Vulnerability","Play action: 21% of dropbacks, -0.05 EPA/play vs +0.12 without (n=63 vs 238).",63,-0.170853978476177
+"Vulnerability","Least efficient run gap: Right Tackle, -0.56 EPA/carry, stuffed (0 or fewer yards) on 31% (n=16).",16,-0.557691142072145
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 23% (n=26); they pass 96% of the time there. Overall 3rd-down conversion: 42%.",26,0.230769230769231

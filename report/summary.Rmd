@@ -1,0 +1,94 @@
+---
+title: "Offensive Scouting Pipeline: Cross-Team Summary"
+output:
+  html_document:
+    self_contained: true
+    theme: null
+    highlight: null
+    mathjax: null
+    css: report.css
+    md_extensions: -tex_math_dollars
+params:
+  results: NULL
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 4.6, dpi = 144)
+R <- params$results
+p1 <- function(x) ifelse(is.na(x), "n/a", scales::percent(x, accuracy = 1))
+e2 <- function(x) ifelse(is.na(x), "n/a", sprintf("%+.2f", x))
+```
+
+```{r banner, results="asis"}
+if (any(vapply(R, function(x) isTRUE(x$cfg$mock_data), logical(1)))) {
+  cat('<div class="mock-banner"><strong>Read first:</strong> teams marked (MOCK) are <strong>MOCK DATA</strong>, simulated to stress-test the pipeline. Their numbers and player IDs are illustrative and do not describe the real teams.</div>')
+}
+```
+
+<p class="meta">One R pipeline, `r length(R)` offenses, same 56-column GamePBP schema. Every report below was produced by the same call: <code>build_scouting_report(file, team)</code>.</p>
+
+## At a glance
+
+```{r glance}
+rows <- lapply(R, function(x) {
+  ov <- x$res$overview; pr <- x$res$predictability
+  data.frame(
+    Team = paste0(x$cfg$team_name), Data = ifelse(isTRUE(x$cfg$mock_data), "MOCK", "Real"),
+    Plays = ov$plays, `Pass %` = p1(ov$pass_rate), `Neutral pass %` = p1(ov$neutral_pass_rate),
+    `EPA/play` = e2(ov$epa_per_play), `Success` = p1(ov$success_rate), `3rd-down conv` = p1(ov$third_down_conv),
+    `Sack %` = p1(ov$sack_rate), `Under center %` = p1(x$res$alignment$share_of_snaps[x$res$alignment$qb_alignment == "Under Center"][1]),
+    `Run/pass predictability` = paste0(p1(pr$baseline_accuracy), " -> ", p1(pr$presnap_accuracy)),
+    check.names = FALSE)
+})
+knitr::kable(do.call(rbind, rows), format = "html", table.attr = "class='scout'", escape = TRUE)
+```
+
+<p class="note">Predictability: share of plays a defense would call correctly (run vs pass) by always guessing the majority type, versus guessing from personnel + QB alignment + down + distance (leave-one-out).</p>
+
+```{r tendency-plot}
+d <- do.call(rbind, lapply(R, function(x) {
+  a <- x$res$alignment
+  data.frame(team = x$team, align = as.character(a$qb_alignment), pass = a$pass_rate, n = a$total_plays,
+             col = x$cfg$color_pass)
+}))
+d <- d[d$n >= 10, ]
+ggplot2::ggplot(d, ggplot2::aes(x = pass, y = team)) +
+  ggplot2::geom_vline(xintercept = 0.5, linetype = "dashed", colour = "grey60") +
+  ggplot2::geom_line(ggplot2::aes(group = team), colour = "grey75", linewidth = 1) +
+  ggplot2::geom_point(ggplot2::aes(shape = align, size = n), colour = "#1A202C") +
+  ggplot2::scale_x_continuous(labels = scales::percent, limits = c(0, 1)) +
+  ggplot2::scale_size_area(max_size = 7, guide = "none") +
+  ggplot2::labs(title = "QB alignment is the clearest run/pass key for every offense",
+                subtitle = "Pass rate by QB alignment (alignments with 10+ plays; point size = plays)",
+                x = "Pass rate", y = NULL, shape = NULL,
+                caption = "Teams marked (MOCK) use simulated data.") +
+  theme_scout()
+```
+
+## Headline findings by team
+
+```{r findings, results="asis"}
+for (x in R) {
+  ins <- x$res$insights
+  pick <- rbind(utils::head(ins[ins$category == "Tendency", ], 3),
+                utils::head(ins[ins$category == "Strength", ], 2),
+                utils::head(ins[ins$category == "Vulnerability", ], 2))
+  tag <- if (isTRUE(x$cfg$mock_data)) " <span style='color:#C53030'>(MOCK)</span>" else " <span style='color:#2F855A'>(real data)</span>"
+  cat(sprintf("<div class='find' style='border-color:%s'><h3 style='color:%s'>%s%s</h3><ul>",
+              x$cfg$color_pass, x$cfg$color_pass, htmltools::htmlEscape(sub(" \\(MOCK\\)$", "", x$cfg$team_name)), tag))
+  for (i in seq_len(nrow(pick))) cat(sprintf("<li><strong>%s:</strong> %s</li>", pick$category[i], htmltools::htmlEscape(pick$finding[i])))
+  cat(sprintf("</ul><p class='note'>Full report: <code>%s/%s_scouting_report.html</code> (and .pdf)</p></div>", x$team, x$team))
+}
+```
+
+## How the pipeline works
+
+<div class="defs">
+
+1. **Load and validate** any `.xlsx` (sheet `GamePBP`) or `.csv` in the PFF GamePBP layout. Headers are normalized, every column is read as text and converted on purpose, and missing optional columns are reported but don't stop the run.
+2. **Build the sample:** one offense, run/pass plays only, downs 1-4, excluding garbage time and QB kneels/spikes. Each filter step is counted in the report.
+3. **Analyze** the six scouting questions from the prompt (personnel, down and distance, QB alignment, run concepts, third down and targets, player production) plus passing context and pre-snap tells.
+4. **Write findings** with fixed rules (tendencies, strengths, vulnerabilities), each with its sample size, then render the HTML and PDF reports, the CSV/Excel tables and the PNG charts.
+5. **Stress tested** on the mock files plus edge-case and regression checks (CSV input, messy headers, multi-team files, missing columns, one game, pass-only and run-only offenses, junk values, config switches).
+
+</div>

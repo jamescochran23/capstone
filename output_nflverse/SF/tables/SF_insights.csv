@@ -1,0 +1,23 @@
+"category","finding","n","metric"
+"Tendency","Passes on 59% of all plays and 52% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",1158,0.594991364421416
+"Tendency","QB alignment is a strong run/pass key: under center they run 66% of the time (n=522); in shotgun they pass 83% (n=610).",1132,0.489064757238867
+"Tendency","Pistol is a real part of the menu: 26 plays, 35% pass.",26,0.346153846153846
+"Tendency","Base personnel is 11 (44% of snaps, 74% pass). 4 groupings reach 10+ plays.",504,0.435233160621762
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 95% of the time (n=56, 95% lower bound 85%).",56,0.946428571428571
+"Tendency","Tell: Shotgun + 3rd Down -> pass 89% of the time (n=190, 95% lower bound 84%).",190,0.889473684210526
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 92% of the time (n=63, 95% lower bound 83%).",63,0.920634920634921
+"Tendency","Tell: 11 + Shotgun -> pass 86% of the time (n=390, 95% lower bound 82%).",390,0.858974358974359
+"Tendency","Run game is built on Middle and Left Guard: 41% of carries.",193,0.411513859275053
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 59% to 74% (leave-one-out).",1158,0.14853195164076
+"Strength","Most efficient run gap: Middle, +0.12 EPA/carry, 4.0 YPC, 61% success (n=125).",125,0.121100021476528
+"Strength","Primary target: C. McCaffrey (#23) (HB), 24% target share, 113 catches for 1009 yards, +0.33 EPA/target, 55 first downs.",143,0.332371917871432
+"Strength","Most efficient receiver: G. Kittle (#85) (TE), +0.65 EPA/target on 71 targets, aDOT 6.7, 4.4 YAC/rec.",71,0.645753036116334
+"Strength","Lead back C. McCaffrey (#23): 72% of carries, 3.8 YPC, 49% success. Favorite gap: Middle.",336,-0.0792737915617681
+"Strength","Most total value: G. Kittle (#85), 44.9 total EPA on 72 touches + targets (631 scrimmage yards).",72,44.858753055748
+"Strength","Deep shots (20+ air yards): 10% of targets, 44% complete, +0.35 EPA/target (n=59).",59,0.349107300633327
+"Vulnerability","Play action: 22% of dropbacks, +0.09 EPA/play vs +0.16 without (n=153 vs 536).",153,-0.0715625160168014
+"Vulnerability","Pressure breaks the passing game: -0.48 EPA/dropback when pressured vs +0.35 clean. Pressured on 25% of dropbacks; sack rate 4%.",173,-0.831954281332478
+"Vulnerability","Least efficient run gap: Right End, -0.19 EPA/carry, stuffed (0 or fewer yards) on 25% (n=55).",55,-0.193660928063433
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 30% (n=33); they pass 91% of the time there. Overall 3rd-down conversion: 50%.",33,0.303030303030303
+"Vulnerability","Least productive personnel: 12, -0.03 EPA/play (n=125, 48% pass).",125,-0.0291146718219389
+"Vulnerability","High-volume, low-return target: J. Jennings (#15) (WR), 16% of targets but +0.00 EPA/target and 60% catch rate.",97,0.000836804106639951

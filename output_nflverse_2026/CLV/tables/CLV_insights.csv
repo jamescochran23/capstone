@@ -1,0 +1,20 @@
+"category","finding","n","metric"
+"Tendency","Passes on 65% of all plays and 56% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",527,0.648956356736243
+"Tendency","QB alignment is a strong run/pass key: under center they run 73% of the time (n=114); in shotgun they pass 78% (n=395).",509,0.512880302020875
+"Tendency","Pistol is a real part of the menu: 18 plays, 6% pass.",18,0.0555555555555556
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 97% of the time (n=36, 95% lower bound 86%).",36,0.972222222222222
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 97% of the time (n=35, 95% lower bound 85%).",35,0.971428571428571
+"Tendency","Tell: Shotgun + 3rd Down -> pass 89% of the time (n=108, 95% lower bound 82%).",108,0.888888888888889
+"Tendency","Tell: Pistol -> run 94% of the time (n=18, 95% lower bound 74%).",18,0.944444444444444
+"Tendency","Run game is built on Middle and Left End: 40% of carries.",74,0.4
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 65% to 77% (leave-one-out).",527,0.119544592030361
+"Strength","Most efficient run gap: Right End, +0.03 EPA/carry, 5.1 YPC, 39% success (n=18).",18,0.034840821278825
+"Strength","Primary target: D. Boston (#12) (WR), 21% target share, 30 catches for 448 yards, +0.06 EPA/target, 19 first downs.",58,0.0581168438157853
+"Strength","Most efficient receiver: I. Bond (#0) (WR), +0.39 EPA/target on 9 targets, aDOT 13.3, 3.8 YAC/rec.",9,0.392795006770435
+"Strength","Lead back Q. Judkins (#10): 60% of carries, 3.3 YPC, 43% success. Favorite gap: Middle.",111,-0.257382142670067
+"Strength","Most total value: H. Fannin Jr. (#44), 17.8 total EPA on 53 touches + targets (453 scrimmage yards).",53,17.8444259917618
+"Strength","Deep shots (20+ air yards): 10% of targets, 36% complete, +0.55 EPA/target (n=28).",28,0.546029434755578
+"Vulnerability","Play action: 17% of dropbacks, -0.15 EPA/play vs -0.00 without (n=57 vs 285).",57,-0.142507084905103
+"Vulnerability","Least efficient run gap: Left Guard, -0.31 EPA/carry, stuffed (0 or fewer yards) on 33% (n=24).",24,-0.311121214755986
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 5% (n=22); they pass 91% of the time there. Overall 3rd-down conversion: 35%.",22,0.0454545454545455
+"Vulnerability","High-volume, low-return target: J. Jeudy (#3) (WR), 10% of targets but +0.01 EPA/target and 64% catch rate.",28,0.0121022369140909

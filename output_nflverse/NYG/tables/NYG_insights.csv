@@ -1,0 +1,23 @@
+"category","finding","n","metric"
+"Tendency","Passes on 58% of all plays and 48% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",1075,0.58046511627907
+"Tendency","QB alignment is a strong run/pass key: under center they run 69% of the time (n=246); in shotgun they pass 71% (n=757).",1003,0.399013005982107
+"Tendency","Pistol is a real part of the menu: 72 plays, 11% pass.",72,0.111111111111111
+"Tendency","Base personnel is 11 (61% of snaps, 68% pass). 3 groupings reach 10+ plays.",655,0.609302325581395
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 92% of the time (n=65, 95% lower bound 83%).",65,0.923076923076923
+"Tendency","Tell: Pistol -> run 89% of the time (n=72, 95% lower bound 80%).",72,0.888888888888889
+"Tendency","Tell: 3rd Down + Extra Long (11+) -> pass 91% of the time (n=45, 95% lower bound 79%).",45,0.911111111111111
+"Tendency","Tell: 11 + 4th Down -> pass 96% of the time (n=23, 95% lower bound 79%).",23,0.956521739130435
+"Tendency","Run game is built on Middle and Left Tackle: 41% of carries.",184,0.407982261640798
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 58% to 71% (leave-one-out).",1075,0.129302325581395
+"Strength","Most efficient run gap: Left Tackle, +0.13 EPA/carry, 4.4 YPC, 47% success (n=73).",73,0.12520928135499
+"Strength","Primary target: W. Robinson (#17) (WR), 28% target share, 92 catches for 1014 yards, +0.15 EPA/target, 39 first downs.",140,0.145782450786648
+"Strength","Most efficient receiver: D. Bellinger (#82) (TE), +0.87 EPA/target on 26 targets, aDOT 9.4, 6.9 YAC/rec.",26,0.869134065481307
+"Strength","Lead back T. Tracy Jr. (#29): 39% of carries, 4.2 YPC, 45% success. Favorite gap: Left Tackle.",176,-0.0556039143176261
+"Strength","Most total value: D. Bellinger (#82), 22.6 total EPA on 26 touches + targets (286 scrimmage yards).",26,22.597485702514
+"Strength","Deep shots (20+ air yards): 14% of targets, 39% complete, +0.62 EPA/target (n=71).",71,0.624160843408561
+"Vulnerability","Play action: 23% of dropbacks, -0.02 EPA/play vs +0.06 without (n=142 vs 482).",142,-0.0742856271477053
+"Vulnerability","Pressure breaks the passing game: -0.46 EPA/dropback when pressured vs +0.26 clean. Pressured on 31% of dropbacks; sack rate 8%.",194,-0.723424847912027
+"Vulnerability","Least efficient run gap: Left End, -0.33 EPA/carry, stuffed (0 or fewer yards) on 23% (n=35).",35,-0.329711749489485
+"Vulnerability","On 3rd and Long (7-10) they convert only 25% (n=65); they pass 92% of the time there. Overall 3rd-down conversion: 41%.",65,0.246153846153846
+"Vulnerability","Least productive personnel: 13, -0.03 EPA/play (n=48, 15% pass).",48,-0.0251398853767264
+"Vulnerability","High-volume, low-return target: T. Tracy Jr. (#29) (HB), 10% of targets but +0.00 EPA/target and 75% catch rate.",48,0.000845122021521465

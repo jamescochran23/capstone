@@ -1,0 +1,19 @@
+"category","finding","n","metric"
+"Tendency","Passes on 57% of all plays and 51% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",453,0.565121412803532
+"Tendency","QB alignment is a strong run/pass key: under center they run 65% of the time (n=233); in shotgun they pass 81% (n=214).",447,0.46115278167743
+"Tendency","Tell: Shotgun + 3rd Down -> pass 90% of the time (n=61, 95% lower bound 80%).",61,0.901639344262295
+"Tendency","Tell: 2nd Down + Extra Long (11+) -> pass 95% of the time (n=20, 95% lower bound 76%).",20,0.95
+"Tendency","Tell: Shotgun -> pass 81% of the time (n=214, 95% lower bound 76%).",214,0.813084112149533
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 91% of the time (n=22, 95% lower bound 72%).",22,0.909090909090909
+"Tendency","Run game is built on Middle and Right Guard: 56% of carries.",111,0.563451776649746
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 57% to 72% (leave-one-out).",453,0.152317880794702
+"Strength","Most efficient run gap: Left Tackle, +0.11 EPA/carry, 4.5 YPC, 59% success (n=17).",17,0.105484873244731
+"Strength","Primary target: G. Kittle (#85) (TE), 23% target share, 37 catches for 457 yards, +0.25 EPA/target, 21 first downs.",52,0.246336964323956
+"Strength","Most efficient receiver: M. Evans (#5) (WR), +1.02 EPA/target on 39 targets, aDOT 14.6, 2.7 YAC/rec.",39,1.02211862562666
+"Strength","Lead back C. McCaffrey (#23): 52% of carries, 4.5 YPC, 57% success. Favorite gap: Middle.",102,0.129254133251665
+"Strength","Most total value: M. Evans (#5), 39.9 total EPA on 39 touches + targets (500 scrimmage yards).",39,39.8626263994399
+"Strength","Deep shots (20+ air yards): 9% of targets, 55% complete, +1.15 EPA/target (n=20).",20,1.1477912845643
+"Vulnerability","Play action: 23% of dropbacks, +0.08 EPA/play vs +0.37 without (n=58 vs 198).",58,-0.282986272636679
+"Vulnerability","Least efficient run gap: Right Guard, -0.08 EPA/carry, stuffed (0 or fewer yards) on 7% (n=27).",27,-0.0849676169293359
+"Vulnerability","On 3rd and Long (7-10) they convert only 31% (n=13); they pass 92% of the time there. Overall 3rd-down conversion: 53%.",13,0.307692307692308
+"Vulnerability","High-volume, low-return target: C. McCaffrey (#23) (HB), 20% of targets but +0.08 EPA/target and 80% catch rate.",44,0.0839683158989835

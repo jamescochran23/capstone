@@ -1,0 +1,20 @@
+"category","finding","n","metric"
+"Tendency","Passes on 64% of all plays and 56% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",479,0.638830897703549
+"Tendency","QB alignment is a strong run/pass key: under center they run 67% of the time (n=149); in shotgun they pass 80% (n=315).",464,0.471140939597315
+"Tendency","Pistol is a real part of the menu: 15 plays, 33% pass.",15,0.333333333333333
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 100% of the time (n=29, 95% lower bound 88%).",29,1
+"Tendency","Tell: Shotgun + 3rd Down -> pass 92% of the time (n=86, 95% lower bound 84%).",86,0.918604651162791
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 100% of the time (n=15, 95% lower bound 80%).",15,1
+"Tendency","Tell: 3rd Down + Extra Long (11+) -> pass 96% of the time (n=23, 95% lower bound 79%).",23,0.956521739130435
+"Tendency","Run game is built on Middle and Right Guard: 36% of carries.",63,0.364161849710983
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 64% to 75% (leave-one-out).",479,0.11482254697286
+"Strength","Most efficient run gap: Left Tackle, +0.16 EPA/carry, 5.2 YPC, 55% success (n=20).",20,0.164336438893224
+"Strength","Primary target: D. Schultz (#86) (TE), 18% target share, 35 catches for 383 yards, +0.26 EPA/target, 14 first downs.",47,0.263552760950646
+"Strength","Most efficient receiver: T. Dell (#1) (WR), +0.87 EPA/target on 9 targets, aDOT 15.9, 14.6 YAC/rec.",9,0.874116415229057
+"Strength","Lead back W. Marks (#4): 51% of carries, 3.6 YPC, 43% success. Favorite gap: Middle.",88,-0.161448063183819
+"Strength","Most total value: N. Collins (#12), 27.2 total EPA on 41 touches + targets (396 scrimmage yards).",41,27.2481336000265
+"Strength","Play action: 20% of dropbacks, +0.23 EPA/play vs +0.18 without (n=62 vs 244).",62,0.0499019327307118
+"Strength","Deep shots (20+ air yards): 15% of targets, 49% complete, +0.82 EPA/target (n=39).",39,0.819943703195135
+"Vulnerability","Least efficient run gap: Right Guard, -0.29 EPA/carry, stuffed (0 or fewer yards) on 21% (n=28).",28,-0.287034755014042
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 22% (n=23); they pass 96% of the time there. Overall 3rd-down conversion: 41%.",23,0.217391304347826
+"Vulnerability","High-volume, low-return target: X. Hutchinson (#19) (WR), 17% of targets but +0.05 EPA/target and 53% catch rate.",45,0.05299869865428

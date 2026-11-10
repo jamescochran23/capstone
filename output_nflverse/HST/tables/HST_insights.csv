@@ -1,0 +1,22 @@
+"category","finding","n","metric"
+"Tendency","Passes on 61% of all plays and 53% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",1191,0.607892527287993
+"Tendency","QB alignment is a strong run/pass key: under center they run 69% of the time (n=452); in shotgun they pass 79% (n=739).",1191,0.484088160273989
+"Tendency","Base personnel is 11 (67% of snaps, 74% pass). 8 groupings reach 10+ plays.",798,0.670025188916877
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 99% of the time (n=70, 95% lower bound 92%).",70,0.985714285714286
+"Tendency","Tell: Shotgun + 3rd Down -> pass 92% of the time (n=223, 95% lower bound 88%).",223,0.919282511210762
+"Tendency","Tell: 11 + 3rd Down -> pass 90% of the time (n=227, 95% lower bound 85%).",227,0.898678414096916
+"Tendency","Tell: 21 (*) -> run 100% of the time (n=22, 95% lower bound 85%).",22,1
+"Tendency","Run game is built on Middle and Right Guard: 48% of carries.",223,0.477516059957173
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 61% to 76% (leave-one-out).",1191,0.147774979009236
+"Strength","Most efficient run gap: Right Guard, +0.08 EPA/carry, 4.7 YPC, 53% success (n=89).",89,0.0773260880109925
+"Strength","Primary target: N. Collins (#12) (WR), 20% target share, 73 catches for 1134 yards, +0.29 EPA/target, 50 first downs.",126,0.290534992656663
+"Strength","Most efficient receiver: D. Schultz (#86) (TE), +0.40 EPA/target on 111 targets, aDOT 6.1, 4.6 YAC/rec.",111,0.396417667687248
+"Strength","Lead back W. Marks (#27): 49% of carries, 3.6 YPC, 47% success. Favorite gap: Middle.",228,-0.151221743187791
+"Strength","Most total value: D. Schultz (#86), 44.0 total EPA on 111 touches + targets (836 scrimmage yards).",111,44.0023611132846
+"Strength","Play action: 22% of dropbacks, +0.04 EPA/play vs +0.03 without (n=162 vs 562).",162,0.0112117374818111
+"Strength","Deep shots (20+ air yards): 11% of targets, 36% complete, +0.39 EPA/target (n=69).",69,0.387163407250689
+"Vulnerability","Pressure breaks the passing game: -0.50 EPA/dropback when pressured vs +0.24 clean. Pressured on 28% of dropbacks; sack rate 5%.",204,-0.736017454458401
+"Vulnerability","Least efficient run gap: Right Tackle, -0.33 EPA/carry, stuffed (0 or fewer yards) on 25% (n=65).",65,-0.332736086484185
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 18% (n=51); they pass 86% of the time there. Overall 3rd-down conversion: 40%.",51,0.176470588235294
+"Vulnerability","Least productive personnel: 21 (*), -0.37 EPA/play (n=22, 0% pass).",22,-0.374296417540905
+"Vulnerability","High-volume, low-return target: C. Kirk (#13) (WR), 11% of targets but -0.14 EPA/target and 57% catch rate.",67,-0.140824431550316

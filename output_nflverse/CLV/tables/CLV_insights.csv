@@ -1,0 +1,23 @@
+"category","finding","n","metric"
+"Tendency","Passes on 62% of all plays and 54% of neutral early-down plays (1st/2nd down, outside 2-minute drills).",987,0.622087132725431
+"Tendency","QB alignment is a strong run/pass key: under center they run 72% of the time (n=319); in shotgun they pass 80% (n=645).",964,0.513217175767296
+"Tendency","Pistol is a real part of the menu: 23 plays, 48% pass.",23,0.478260869565217
+"Tendency","Base personnel is 11 (44% of snaps, 71% pass). 6 groupings reach 10+ plays.",431,0.436676798378926
+"Tendency","Tell: 3rd Down + Extra Long (11+) -> pass 96% of the time (n=54, 95% lower bound 87%).",54,0.962962962962963
+"Tendency","Tell: 3rd Down + Medium (4-6) -> pass 94% of the time (n=53, 95% lower bound 85%).",53,0.943396226415094
+"Tendency","Tell: 3rd Down + Long (7-10) -> pass 93% of the time (n=70, 95% lower bound 84%).",70,0.928571428571429
+"Tendency","Tell: Shotgun + 3rd Down -> pass 88% of the time (n=200, 95% lower bound 82%).",200,0.875
+"Tendency","Run game is built on Middle and Right Guard: 47% of carries.",177,0.474530831099196
+"Tendency","Predictability: knowing personnel, alignment, down and distance lifts a defense's run/pass guess from 62% to 76% (leave-one-out).",987,0.133738601823708
+"Strength","Most efficient run gap: Right End, +0.02 EPA/carry, 4.5 YPC, 50% success (n=28).",28,0.0220498734727569
+"Strength","Primary target: J. Jeudy (#3) (WR), 20% target share, 48 catches for 580 yards, -0.31 EPA/target, 30 first downs.",102,-0.30658610095317
+"Strength","Most efficient receiver: C. Tillman (#19) (WR), +0.17 EPA/target on 39 targets, aDOT 11.9, 3.0 YAC/rec.",39,0.167367873885888
+"Strength","Lead back Q. Judkins (#10): 59% of carries, 3.6 YPC, 42% success. Favorite gap: Middle.",221,-0.10928691698327
+"Strength","Most total value: C. Tillman (#19), 6.5 total EPA on 39 touches + targets (270 scrimmage yards).",39,6.52734708154965
+"Vulnerability","Play action: 22% of dropbacks, -0.28 EPA/play vs -0.23 without (n=138 vs 476).",138,-0.0511109886395356
+"Vulnerability","Deep shots (20+ air yards): 11% of targets, 28% complete, -0.22 EPA/target (n=53).",53,-0.217427657357087
+"Vulnerability","Pressure breaks the passing game: -0.64 EPA/dropback when pressured vs +0.00 clean. Pressured on 38% of dropbacks; sack rate 8%.",233,-0.640867977083111
+"Vulnerability","Least efficient run gap: Left Guard, -0.24 EPA/carry, stuffed (0 or fewer yards) on 22% (n=37).",37,-0.242490620364913
+"Vulnerability","On 3rd and Extra Long (11+) they convert only 9% (n=54); they pass 96% of the time there. Overall 3rd-down conversion: 33%.",54,0.0925925925925926
+"Vulnerability","Least productive personnel: 21, -0.32 EPA/play (n=14, 71% pass).",14,-0.320442645452983
+"Vulnerability","High-volume, low-return target: J. Jeudy (#3) (WR), 20% of targets but -0.31 EPA/target and 47% catch rate.",102,-0.30658610095317

@@ -1,0 +1,33 @@
+# R session / IDE files
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+
+# Saved R objects (rebuilt on every run)
+*.rds
+
+# nflverse download cache
+data/nflverse/cache/
+
+# Licensed / private play-by-play: never commit PFF or team-provided data
+data/*.xlsx
+data/*.csv
+data/rosters/
+data/private/
+*_GamePBP_source.*
+*PFF*.xlsx
+*PFF*.csv
+*Steelers*
+*Patriots*
+output/NE/
+output_nflverse/NE/
+
+# Mock-data build outputs (rebuilt by run_all.R)
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
